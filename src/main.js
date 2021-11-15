@@ -12,10 +12,13 @@ import App from "./App.vue";
 // mock开关
 const mock = false;
 if (mock) {
+  // require和import的区别：require只有在被执行的时候才会去加载模块，而import则是初始就要加载模块
   require("./mock/api");
 }
 
 // 如果是jsonp或者后端跨域的时候，就需要写成完整的接口链接。
+
+// 使用easy-mock
 // axios.defaults.baseURL = 'https://www.easy-mock.com/mock/5dc7afee2b69d9223b633cbb/mimall';
 
 // https://segmentfault.com/a/1190000037557209
