@@ -73,6 +73,7 @@ export default {
         .then((res) => {
           this.$cookie.set("userId", res.id, { expires: "Session" });
           // this.$store.dispatch('saveUserName',res.username);
+          // 通过...mapActions([])导入后，这样使用
           this.saveUserName(res.username);
           this.$router.push({
             name: "index",
