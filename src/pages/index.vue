@@ -268,6 +268,7 @@ export default {
       height: 451px;
       z-index: 9;
       padding: 26px 0;
+      // 带50%透明度的背景
       background-color: #55585a7a;
       box-sizing: border-box;
       .menu-wrap {
