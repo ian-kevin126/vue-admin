@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+  <div>nav-header</div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "nav-header",
+};
 </script>
 
 <style></style>

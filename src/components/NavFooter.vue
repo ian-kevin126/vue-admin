@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+  <div>nav-footer</div>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "nav-footer",
+};
 </script>
 
 <style></style>
